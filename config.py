@@ -1,12 +1,12 @@
-from dotenv import load_dotenv
+import streamlit as st
 import os
 
-load_dotenv()
+# Try Streamlit secrets first (cloud)
+if "GROQ_API_KEY" in st.secrets:
+    GROQ_API_KEY = st.secrets["GROQ_API_KEY"]
 
-GROQ_API_KEY = os.getenv("GROQ_API_KEY")
+# Otherwise use environment variable (local)
+else:
+    GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-EXIT_KEYWORDS = ["exit", "quit", "bye", "end"]
-
-#OPENAI_API_KEY=your_openai_api_key
-
-
+EXIT_KEYWORDS = ["exit", "quit", "finish", "end"]
