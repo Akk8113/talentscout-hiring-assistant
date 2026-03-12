@@ -7,10 +7,10 @@ An AI-powered chatbot that helps recruiters perform **initial candidate screenin
 ## Live Demo
 
 Streamlit App:  
-https://your-streamlit-link.streamlit.app
+https://talentscout-ai-recruiter.streamlit.app/
 
 GitHub Repository:  
-https://github.com/yourusername/talentscout-hiring-assistant
+https://github.com/Akk8113/talentscout-hiring-assistant
 
 ---
 
@@ -214,3 +214,4 @@ Solution: Split the tech stack and generate questions per technology.
 Arpit Kakaiya  
 B.Tech Computer Engineering  
 AI & Data Science Enthusiast
+
