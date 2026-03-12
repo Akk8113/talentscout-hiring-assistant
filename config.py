@@ -9,4 +9,7 @@ if "GROQ_API_KEY" in st.secrets:
 else:
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
+
 EXIT_KEYWORDS = ["exit", "quit", "finish", "end"]
+
+
